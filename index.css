@@ -2,7 +2,7 @@ body{
 	background-color: rgba(180, 240, 420, 0.6);
 }
 nav{
-	background-image: url("/storage/emulated/0/ECX/pictures/wall.jpeg");
+	background-image: url("wall.jpeg");
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -49,7 +49,7 @@ input[type=submit]{
 	background-color: rgb(300, 100, 128);
 }
 footer{
-	background-image: url("/storage/emulated/0/ECX/pictures/wall.jpeg");
+	background-image: url("wall.jpeg");
 	margin: 5px;
 	background-size: cover;
 	background-repeat:no-repeat;
