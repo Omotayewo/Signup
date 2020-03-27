@@ -1,0 +1,78 @@
+body{
+	background-color: rgba(180, 240, 420, 0.6);
+}
+nav{
+	background-image: url("/storage/emulated/0/ECX/pictures/wall.jpeg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	height: 7%;
+	text-align: center;
+	font-size: 18px;
+	float: right;
+	border: 0.5px solid blue;
+	padding: 0px;
+	margin: 0px;
+}
+nav p{
+	color: white;
+}
+input[type=text], [type=password]{
+  width: 65%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline;
+  border: none;
+  background: #f1f1f1;
+}
+textarea{
+	width: 65%;
+	padding: 15px;
+	margin: 5px 0 22px ;
+	display: inline;
+	border: none;
+	background: #f1f1f1;
+}
+p a{
+	color: red;
+	font-family: Times New Roman;
+}
+p a:visited{
+	color: yellow;
+}
+input[type=submit]{
+	width: 30%;
+	padding: 15px;
+	margin: 5px 0 22px ;
+	display: block;
+	border: none;
+	background-color: rgb(300, 100, 128);
+}
+footer{
+	background-image: url("/storage/emulated/0/ECX/pictures/wall.jpeg");
+	margin: 5px;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	border: 0.5px solid blue;
+}
+#logo{
+	text-align: center;
+}
+footer p{
+	color: white;
+}
+html{
+	min-height: 100%;
+}
+@media screen and (max-device-width: 800px) {
+	nav{
+		height: 6.3%
+	}
+	html{
+		min-height: 100%;
+	}
+	body{
+		height: 100%;
+	}
+}

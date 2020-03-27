@@ -1,0 +1,56 @@
+body{
+	background-image: url("/storage/emulated/0/ECX/pictures/Iceland.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.container {
+  display:flex;
+  width: 70%;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+.field{
+	background: #f1f1f1;
+	display: block;
+	border: none;
+	padding: 15px;
+}
+.material-icons{
+	text-align: center;
+	background: rgb(300, 100, 128);
+	color: white;
+	padding: 10px;
+}
+input[type=submit]{
+	width: 30%;
+	padding: 15px;
+	margin: 5px 0 22px ;
+	display:block;
+	border: none;
+	background-color: rgb(300, 100, 128);
+}
+a{
+	color: red;
+	font-family:Times New Roman;
+}
+a:visited{
+	color: yellow;
+}
+span{
+	float: right;
+	color: black;
+}
+label[for=remme]{
+	color: black;
+}
+footer{
+	border: none;
+	color: #f1f1f1
+	
+}
+#logo{
+	text-align: center;
+}
+html{
+	min-height: 100%;
+}
